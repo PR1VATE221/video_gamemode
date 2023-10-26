@@ -1,0 +1,1 @@
+{    "configurations": [        {            "name": "Win32",            "includePath": ["C:/server/pawno/include"],            "browse" : {                "limitSymbolsToIncludedHeaders" : false,                "databaseFilename" : ""            }        }    ]}

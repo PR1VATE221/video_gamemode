@@ -1,0 +1,319 @@
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[15:56:42] filterscripts = ""  (string)
+[15:56:42] 
+[15:56:42] Server Plugins
+[15:56:42] --------------
+[15:56:42]  Loaded 0 plugins.
+
+[15:56:42] 
+[15:56:42] Filterscripts
+[15:56:42] ---------------
+[15:56:42]   Loaded 0 filterscripts.
+
+[15:56:42] Loaded 3 vehicles from: vehicles/trains.txt
+[15:56:42] Loaded 3 vehicles from: vehicles/pilots.txt
+[15:56:42] Loaded 15 vehicles from: vehicles/lv_law.txt
+[15:56:42] Loaded 39 vehicles from: vehicles/lv_airport.txt
+[15:56:42] Loaded 255 vehicles from: vehicles/lv_gen.txt
+[15:56:42] Loaded 38 vehicles from: vehicles/sf_law.txt
+[15:56:42] Loaded 35 vehicles from: vehicles/sf_airport.txt
+[15:56:42] Loaded 353 vehicles from: vehicles/sf_gen.txt
+[15:56:42] Loaded 24 vehicles from: vehicles/ls_law.txt
+[15:56:42] Loaded 37 vehicles from: vehicles/ls_airport.txt
+[15:56:42] Loaded 98 vehicles from: vehicles/ls_gen_inner.txt
+[15:56:42] Loaded 389 vehicles from: vehicles/ls_gen_outer.txt
+[15:56:42] Loaded 71 vehicles from: vehicles/whetstone.txt
+[15:56:42] Loaded 168 vehicles from: vehicles/bone.txt
+[15:56:42] Loaded 61 vehicles from: vehicles/flint.txt
+[15:56:42] Loaded 96 vehicles from: vehicles/tierra.txt
+[15:56:42] Loaded 96 vehicles from: vehicles/red_county.txt
+[15:56:42] Total vehicles from files: 1781
+[15:56:42] 
+---------------------------------------
+[15:56:42] Running Grand Larceny - by the SA-MP team
+
+[15:56:42] ---------------------------------------
+
+[15:56:42] Number of vehicle models: 173
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:05:38] filterscripts = ""  (string)
+[16:05:38] 
+[16:05:38] Server Plugins
+[16:05:38] --------------
+[16:05:38]  Loaded 0 plugins.
+
+[16:05:38] I couldn't load any gamemode scripts. Please verify your server.cfg
+[16:05:38] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:05:53] filterscripts = ""  (string)
+[16:05:53] 
+[16:05:53] Server Plugins
+[16:05:53] --------------
+[16:05:53]  Loaded 0 plugins.
+
+[16:05:53] 
+[16:05:53] Filterscripts
+[16:05:53] ---------------
+[16:05:53]   Loaded 0 filterscripts.
+
+[16:05:53] Script[gamemodes/main.amx]: Run time error 19: "File or function is not found"
+[16:05:53] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:06:46] filterscripts = ""  (string)
+[16:06:46] 
+[16:06:46] Server Plugins
+[16:06:46] --------------
+[16:06:46]  Loading plugin: mysql.dll
+[16:06:46]  >> plugin.mysql: R41-4 successfully loaded.
+[16:06:46]   Loaded.
+[16:06:46]  Loaded 1 plugins.
+
+[16:06:46] 
+[16:06:46] Filterscripts
+[16:06:46] ---------------
+[16:06:46]   Loaded 0 filterscripts.
+
+[16:06:46] Ошибки нет
+[16:06:46] Script[gamemodes/main.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[16:06:46] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:07:04] filterscripts = ""  (string)
+[16:07:04] 
+[16:07:04] Server Plugins
+[16:07:04] --------------
+[16:07:04]  Loading plugin: mysql.dll
+[16:07:04]  >> plugin.mysql: R41-4 successfully loaded.
+[16:07:04]   Loaded.
+[16:07:04]  Loaded 1 plugins.
+
+[16:07:04] 
+[16:07:04] Filterscripts
+[16:07:04] ---------------
+[16:07:04]   Loaded 0 filterscripts.
+
+[16:07:04] Ошибки нет
+[16:07:04] Script[gamemodes/main.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[16:07:04] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:07:15] filterscripts = ""  (string)
+[16:07:15] 
+[16:07:15] Server Plugins
+[16:07:15] --------------
+[16:07:15]  Loading plugin: mysql.dll
+[16:07:15]  >> plugin.mysql: R41-4 successfully loaded.
+[16:07:15]   Loaded.
+[16:07:15]  Loaded 1 plugins.
+
+[16:07:16] 
+[16:07:16] Filterscripts
+[16:07:16] ---------------
+[16:07:16]   Loaded 0 filterscripts.
+
+[16:07:16] Ошибка
+[16:07:16] Script[gamemodes/main.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[16:07:16] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:08:34] filterscripts = ""  (string)
+[16:08:34] 
+[16:08:34] Server Plugins
+[16:08:34] --------------
+[16:08:34]  Loading plugin: crashdetect.dll
+[16:08:34]   CrashDetect v4.13 is OK.
+[16:08:34]   Loaded.
+[16:08:34]  Loading plugin: mysql.dll
+[16:08:34]  >> plugin.mysql: R41-4 successfully loaded.
+[16:08:34]   Loaded.
+[16:08:34]  Loaded 2 plugins.
+
+[16:08:34] 
+[16:08:34] Filterscripts
+[16:08:34] ---------------
+[16:08:34]   Loaded 0 filterscripts.
+
+[16:08:34] Ошибки нет
+[16:08:34] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:08:34] Script[gamemodes/main.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[16:08:34] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:08:48] filterscripts = ""  (string)
+[16:08:48] 
+[16:08:48] Server Plugins
+[16:08:48] --------------
+[16:08:48]  Loading plugin: crashdetect.dll
+[16:08:48]   CrashDetect v4.13 is OK.
+[16:08:48]   Loaded.
+[16:08:48]  Loading plugin: mysql.dll
+[16:08:48]  >> plugin.mysql: R41-4 successfully loaded.
+[16:08:48]   Loaded.
+[16:08:48]  Loaded 2 plugins.
+
+[16:08:48] 
+[16:08:48] Filterscripts
+[16:08:48] ---------------
+[16:08:48]   Loaded 0 filterscripts.
+
+[16:08:48] Ошибки нет
+[16:08:48] [debug] Run time error 20: "Invalid index parameter (bad entry point)"
+[16:08:48] Script[gamemodes/main.amx]: Run time error 20: "Invalid index parameter (bad entry point)"
+[16:08:48] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:09:22] filterscripts = ""  (string)
+[16:09:22] 
+[16:09:22] Server Plugins
+[16:09:22] --------------
+[16:09:22]  Loading plugin: crashdetect.dll
+[16:09:22]   CrashDetect v4.13 is OK.
+[16:09:22]   Loaded.
+[16:09:22]  Loading plugin: mysql.dll
+[16:09:22]  >> plugin.mysql: R41-4 successfully loaded.
+[16:09:22]   Loaded.
+[16:09:22]  Loaded 2 plugins.
+
+[16:09:22] 
+[16:09:22] Filterscripts
+[16:09:22] ---------------
+[16:09:22]   Loaded 0 filterscripts.
+
+[16:09:22] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:10:51] filterscripts = ""  (string)
+[16:10:51] 
+[16:10:51] Server Plugins
+[16:10:51] --------------
+[16:10:51]  Loading plugin: crashdetect.dll
+[16:10:51]   CrashDetect v4.13 is OK.
+[16:10:51]   Loaded.
+[16:10:51]  Loading plugin: mysql.dll
+[16:10:51]  >> plugin.mysql: R41-4 successfully loaded.
+[16:10:51]   Loaded.
+[16:10:51]  Loaded 2 plugins.
+
+[16:10:51] 
+[16:10:51] Filterscripts
+[16:10:51] ---------------
+[16:10:51]   Loaded 0 filterscripts.
+
+[16:10:51] Number of vehicle models: 0
+[16:11:19] [connection] incoming connection: 127.0.0.1:52587 id: 0
+[16:11:20] [join] pawner228 has joined the server (0:127.0.0.1)
+[16:11:25] [part] pawner228 has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:17:33] filterscripts = ""  (string)
+[16:17:33] 
+[16:17:33] Server Plugins
+[16:17:33] --------------
+[16:17:33]  Loading plugin: crashdetect.dll
+[16:17:33]   CrashDetect v4.13 is OK.
+[16:17:33]   Loaded.
+[16:17:33]  Loading plugin: mysql.dll
+[16:17:33]  >> plugin.mysql: R41-4 successfully loaded.
+[16:17:33]   Loaded.
+[16:17:33]  Loaded 2 plugins.
+
+[16:17:33] 
+[16:17:33] Filterscripts
+[16:17:33] ---------------
+[16:17:33]   Loaded 0 filterscripts.
+
+[16:17:33] [debug] Run time error 19: "File or function is not found"
+[16:17:33] [debug]  SSCANF_Init
+[16:17:33] [debug]  SSCANF_IsConnected
+[16:17:33] [debug]  SSCANF_Join
+[16:17:33] [debug]  SSCANF_Leave
+[16:17:33] [debug]  SSCANF_TextSimilarity
+[16:17:33] [debug] Run time error 19: "File or function is not found"
+[16:17:33] [debug]  SSCANF_Init
+[16:17:33] [debug]  SSCANF_IsConnected
+[16:17:33] [debug]  SSCANF_Join
+[16:17:33] [debug]  SSCANF_Leave
+[16:17:33] [debug]  SSCANF_TextSimilarity
+[16:17:33] Script[gamemodes/main.amx]: Run time error 19: "File or function is not found"
+[16:17:33] Number of vehicle models: 0

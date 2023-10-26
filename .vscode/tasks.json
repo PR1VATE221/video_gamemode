@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build-RELEASE",
+        "type": "shell",
+        "command": "${workspaceRoot}/pawno/pawncc.exe",
+        "args": [
+          "main.pwn",
+          "'-D${workspaceRoot}/gamemodes/'",
+          "'-;+'",
+          "'-(+'",
+          "'-d3'",
+          "'-i${workspaceRoot}/gamemodes/'",
+          "'-O0'"
+        ],
+        "group": "build",
+        "isBackground": false,
+        "presentation": {
+          "reveal": "silent",
+          "panel": "dedicated"
+        },
+        "problemMatcher": "$pawncc"
+      }
+    ]
+  }
