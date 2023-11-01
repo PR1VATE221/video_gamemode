@@ -32,7 +32,9 @@ public check_password(playerid) {
 		login_player(playerid);
 		return true;
 	} else {
-		SendClientMessage(playerid, -1, "¬веден верный пароль");
+		clear_player_chat(playerid);
+		SpawnPlayer(playerid);
+		check_player_admin(playerid);
 		return true;
 	}	
 }

@@ -1,13 +1,10 @@
 // =========================== [ Create ] ===========================
 DialogCreate:registration_password(playerid) {
-	new player_name[MAX_PLAYER_NAME];
-
-	GetPlayerName(playerid, player_name, MAX_PLAYER_NAME);
 
 	format(
 		sqlSmallQuery, sizeof(sqlSmallQuery),
 		"Здравствуйте, %s, введите ваш будующий пароль:",
-		player_name
+		player_name[playerid]
 	);
 
 	Dialog_Open(
@@ -22,14 +19,10 @@ DialogCreate:registration_password(playerid) {
 }
 
 DialogCreate:login_password(playerid) {
-	new player_name[MAX_PLAYER_NAME];
-
-	GetPlayerName(playerid, player_name, MAX_PLAYER_NAME);
-
 	format(
 		sqlSmallQuery, sizeof(sqlSmallQuery),
-		"{FFFFFFF}Здравствуйте, %s, аккаунт уже зарегистрирован, введите пароль:",
-		player_name
+		"{FFFFFF}Здравствуйте, {AFAFAF}%s{FFFFFF}, аккаунт уже зарегистрирован, введите пароль:",
+		player_name[playerid]
 	);
 
 	Dialog_Open(
@@ -55,14 +48,10 @@ DialogResponse:registration_password(playerid, response, listitem, const inputte
 			Dialog_Show(playerid, Dialog:registration_password);
 			return true;
 		}
-		new player_name[MAX_PLAYER_NAME];
-
-		GetPlayerName(playerid, player_name, MAX_PLAYER_NAME);
-
 		mysql_format(
 			dbHandle, sqlSmallQuery, sizeof(sqlSmallQuery),
 			"INSERT INTO `video_accounts` (`account_name`, `account_password`) VALUES ('%e', '%e')",
-			player_name, inputtext
+			player_name[playerid], inputtext
 		);
 		mysql_tquery(dbHandle, sqlSmallQuery, "registration_final", "i", playerid);
 		return true;
@@ -79,13 +68,10 @@ DialogResponse:login_password(playerid, response, listitem, const inputtext[]) {
 			Dialog_Show(playerid, Dialog:login_password);
 			return true;
 		}
-		new player_name[MAX_PLAYER_NAME];
-
-		GetPlayerName(playerid, player_name, MAX_PLAYER_NAME);
 		mysql_format(
 			dbHandle, sqlMediumQuery, sizeof(sqlMediumQuery),
 			"SELECT * FROM `video_accounts` WHERE `account_name` = '%e' AND `account_password` = '%e'",
-			player_name, inputtext
+			player_name[playerid], inputtext
 		);
 		mysql_tquery(dbHandle, sqlMediumQuery, "check_password", "i", playerid);
 		return true;

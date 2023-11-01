@@ -1,0 +1,1 @@
+new Iterator:admin<MAX_PLAYERS>;
