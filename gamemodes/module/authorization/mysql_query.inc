@@ -1,5 +1,4 @@
-forward sql_check_account(playerid);
-public sql_check_account(playerid) {
+publics: sql_check_account(playerid) {
 	new
 		rows_count;
 
@@ -14,14 +13,12 @@ public sql_check_account(playerid) {
 	}
 }
 
-forward registration_final(playerid);
-public registration_final(playerid) {
+publics: registration_final(playerid) {
 	check_player_account(playerid);
 	return true;
 }
 
-forward check_password(playerid);
-public check_password(playerid) {
+publics: check_password(playerid) {
 	new
 		rows_count;
 
@@ -32,9 +29,75 @@ public check_password(playerid) {
 		login_player(playerid);
 		return true;
 	} else {
-		clear_player_chat(playerid);
+		new 
+			account_id;
+
+		cache_get_value_name_int(0, "account_id", account_id);
+		clear_player_chat(playerid);		
+		check_player_banned(playerid, account_id);		
+		return true;
+	}	
+}
+
+publics: check_account_ban_sql(playerid) {
+	new
+		rows_count;
+
+	cache_get_row_count(rows_count);
+
+	if(!rows_count) {
 		SpawnPlayer(playerid);
 		check_player_admin(playerid);
 		return true;
-	}	
+	} else {
+
+		new
+			ban_reason[100],
+			ban_admin_name[MAX_PLAYER_NAME],
+			ban_unban_time;
+
+		cache_get_value_name_int(0, "ban_unban_time", ban_unban_time);
+		cache_get_value_name(0, "ban_reason", ban_reason, 100);
+		cache_get_value_name(0, "ban_admin_name", ban_admin_name, MAX_PLAYER_NAME);
+
+		if(gettime() >= ban_unban_time) {
+			new sql_ban_id;
+			cache_get_value_name_int(0, "ban_id", sql_ban_id);
+			mysql_format(
+				dbHandle, sqlSmallQuery, sizeof(sqlSmallQuery),
+				"DELETE FROM `video_ban` WHERE `ban_id` = '%i'",
+				sql_ban_id
+			);
+			mysql_tquery(dbHandle, sqlSmallQuery, "", "");
+			SendClientMessage(playerid, -1, "Ваш аккаунт был разблокирован");
+			SpawnPlayer(playerid);
+			check_player_admin(playerid);
+			return true;
+		}
+
+		format(
+			sqlMediumQuery, sizeof(sqlMediumQuery),
+			"{FFFFFF}\\cВаш игровой аккаунт заблокирован.\n\
+			Никнейм аккаунта: {AFAFAF}%s\n\
+			{FFFFFF}Причина блокировки: {AFAFAF}%s\n\
+			{FFFFFF}Заблокировал аккаунт: {AFAFAF}%s\n\
+			{FFFFFF}До разблокировки осталось: {AFAFAF}%i секунд",
+			player_name[playerid],
+			ban_reason,
+			ban_admin_name,
+			ban_unban_time - gettime()
+		);
+
+		Dialog_Open(
+			playerid,
+			Dialog:ban_dialog,
+			DIALOG_STYLE_MSGBOX,
+			"{FF0000}ВАШ АККАУНТ ЗАБЛОКИРОВАН",
+			sqlMediumQuery,
+			"Закрыть", ""
+		);
+
+		KickEx(playerid);
+		return true;
+	}
 }

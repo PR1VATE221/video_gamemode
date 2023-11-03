@@ -54,8 +54,6 @@
 // --------------------------------------------------
 
 // Util
-native print(const string[]);
-native printf(const format[], {Float,_}:...);
 native format(output[], len, const format[], {Float,_}:...);
 native SendClientMessage(playerid, color, const message[]);
 native SendClientMessageToAll(color, const message[]);
@@ -66,7 +64,7 @@ native SendDeathMessageToPlayer(playerid, killer, killee, weapon);
 native GameTextForAll(const string[],time,style);
 native GameTextForPlayer(playerid,const string[],time,style);
 native SetTimer(funcname[], interval, repeating);
-native SetTimerEx(funcname[], interval, repeating, const format[], {Float,_}:...);
+native SetTimerEx(const funcname[], interval, repeating, const format[], {Float,_}:...);
 native KillTimer(timerid);
 native GetTickCount();
 native GetMaxPlayers();

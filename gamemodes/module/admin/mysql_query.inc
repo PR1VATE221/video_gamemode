@@ -1,5 +1,4 @@
-forward check_admin(playerid);
-public check_admin(playerid) {
+publics: check_admin(playerid) {
 	new
 		rows_count;
 
@@ -13,8 +12,7 @@ public check_admin(playerid) {
 	}
 }
 
-forward check_admin_pwd(playerid);
-public check_admin_pwd(playerid) {
+publics: check_admin_pwd(playerid) {
 	new
 		rows_count;
 
@@ -35,8 +33,7 @@ public check_admin_pwd(playerid) {
 	}
 }
 
-forward makeadmin_check(playerid, level, const admin_name[]);
-public makeadmin_check(playerid, level, const admin_name[]) {
+publics: makeadmin_check(playerid, level, const admin_name[]) {
 	new
 		rows_count;
 
@@ -84,4 +81,43 @@ public makeadmin_check(playerid, level, const admin_name[]) {
 			return true;
 		}
 	}
+}
+
+publics: check_ban_account_id(playerid, banned_playerid, banned_days, const banned_reason[]) {
+	new
+		rows_count;
+
+	cache_get_row_count(rows_count);
+
+	if(!rows_count) {
+		SendClientMessage(playerid, -1, "Аккаунта этого игрока нет в базе данных.");
+		return true;
+	} else {
+		new ban_sql_id;
+
+		cache_get_value_name_int(0, "account_id", ban_sql_id);
+
+		mysql_format(
+			dbHandle, sqlMediumQuery, sizeof(sqlMediumQuery),
+			"INSERT INTO `video_ban` (`ban_player_id`, `ban_unban_time`, `ban_reason`, `ban_admin_name`) VALUES \
+			('%i', '%i', '%s', '%s')",
+			ban_sql_id,
+			gettime() + (((60 * 60) * 24) * banned_days),
+			banned_reason,
+			player_name[playerid]
+		);
+		mysql_tquery(dbHandle, sqlMediumQuery, "", "");
+
+		format(
+			sqlSmallQuery, sizeof(sqlSmallQuery),
+			"Администратор %s заблокировал игрока %s на %i дней. Причина: %s",
+			player_name[playerid],
+			player_name[banned_playerid],
+			banned_days,
+			banned_reason
+		);
+		SendClientMessageToAll(0xFF0000FF, sqlSmallQuery);
+		KickEx(banned_playerid);
+	}
+	return true; 
 }

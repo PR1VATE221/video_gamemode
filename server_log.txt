@@ -4156,3 +4156,1016 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [11:36:04] Number of vehicle models: 0
 [11:36:09] [connection] incoming connection: 127.0.0.1:58425 id: 0
 [11:36:10] [join] pawner228 has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:18:11] filterscripts = ""  (string)
+[10:18:11] 
+[10:18:11] Server Plugins
+[10:18:11] --------------
+[10:18:11]  Loading plugin: crashdetect.dll
+[10:18:11]   CrashDetect v4.13 is OK.
+[10:18:11]   Loaded.
+[10:18:11]  Loading plugin: sscanf.dll
+[10:18:11] 
+[10:18:11]  ===============================
+[10:18:11] 
+[10:18:11]       sscanf plugin loaded.     
+[10:18:11] 
+[10:18:11]          Version: 2.13.8
+[10:18:11] 
+[10:18:11]    (c) 2022 Alex "Y_Less" Cole  
+[10:18:11] 
+[10:18:11]  ===============================
+[10:18:11] 
+[10:18:11]   Loaded.
+[10:18:11]  Loading plugin: pawncmd.dll
+[10:18:11] [Pawn.CMD] plugin v3.4.0 loading...
+[10:18:11] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:18:11]   Loaded.
+[10:18:11]  Loading plugin: mysql.dll
+[10:18:11]  >> plugin.mysql: R41-4 successfully loaded.
+[10:18:11]   Loaded.
+[10:18:11]  Loaded 4 plugins.
+
+[10:18:11] 
+[10:18:11] Filterscripts
+[10:18:11] ---------------
+[10:18:11]   Loaded 0 filterscripts.
+
+[10:18:11]  
+[10:18:11]  
+[10:18:11]          ==============================================================
+[10:18:11]          |                                                            |
+[10:18:11]          |                                                            |
+[10:18:11]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[10:18:11]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[10:18:11]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[10:18:11]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[10:18:11]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[10:18:11]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[10:18:11]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[10:18:11]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[10:18:11]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[10:18:11]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[10:18:11]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:18:11]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:18:11]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[10:18:11]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[10:18:11]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[10:18:11]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[10:18:11]          |                                                            |
+[10:18:11]          |                                                            |
+[10:18:11]          |                      (c) 2021 MPL v1.1                     |
+[10:18:11]          |            Alex "Y_Less" Cole and contributors.            |
+[10:18:11]          |                                                            |
+[10:18:11]          |                                                            |
+[10:18:11]          ==============================================================
+[10:18:11]  
+[10:18:11]  
+[10:18:11]  ========================================== 
+[10:18:11]  |                                        | 
+[10:18:11]  |  Missing YSI scriptfiles directories:  | 
+[10:18:11]  |                                        | 
+[10:18:11]  |      /scriptfiles/YSI/fixes/           | 
+[10:18:11]  |      /scriptfiles/YSI/temp/            | 
+[10:18:11]  |                                        | 
+[10:18:11]  ========================================== 
+[10:18:11]  |                                        | 
+[10:18:11]  |   Generating code, this may take a     | 
+[10:18:11]  |  little bit of time.  Note that this   | 
+[10:18:11]  |  code generation works best with the   | 
+[10:18:11]  |     JIT plugin, which you are not      | 
+[10:18:11]  |     currently using.  Get it here:     | 
+[10:18:11]  |                                        | 
+[10:18:11]  |       https://git.io/jit-plugin        | 
+[10:18:11]  |                                        | 
+[10:18:11]  |             Please wait...             | 
+[10:18:11]  |                                        | 
+[10:18:11]  |             Done in 9ms!               | 
+[10:18:11]  |                                        | 
+[10:18:11]  ========================================== 
+[10:18:11]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[10:18:11]  |                                        | 
+[10:18:11]  | Server:      0.3.7-R2 (Windows)        | 
+[10:18:11]  | Started:     03 Nov 2023 - 10:18:11    | 
+[10:18:11]  |                                        | 
+[10:18:11]  | Compiler:    3.10.10 (Windows)         | 
+[10:18:11]  | Includes:    0.3.7                     | 
+[10:18:11]  | Codepage:    <none>                    | 
+[10:18:11]  | Built:       03 Nov 2023 - 10:17:51    | 
+[10:18:11]  |                                        | 
+[10:18:11]  | YSI:         v5.07.3082                | 
+[10:18:11]  | Master:      -1                        | 
+[10:18:11]  |                                        | 
+[10:18:11]  | JIT:         <none>                    | 
+[10:18:11]  | Crashdetect: <warning>                 | 
+[10:18:11]  |                                        | 
+[10:18:11]  |   Crashdetect has been found, but may  | 
+[10:18:11]  |   need updating.  Get the unofficial   | 
+[10:18:11]  |           fixed release from:          | 
+[10:18:11]  |                                        | 
+[10:18:11]  |           github.com/Y-Less/           | 
+[10:18:11]  |        samp-plugin-crashdetect/        | 
+[10:18:11]  |                                        | 
+[10:18:11]  |                                        | 
+[10:18:11]  ========================================== 
+[10:18:11]  |                                        | 
+[10:18:11]  | Unable to check the latest YSI version | 
+[10:18:11]  | - please watch the forums and github:  | 
+[10:18:11]  |                                        | 
+[10:18:11]  |          https://git.io/5.x            | 
+[10:18:11]  |                                        | 
+[10:18:11]  ========================================== 
+[10:18:11]  
+[10:18:11]  
+[10:18:11] Number of vehicle models: 0
+[10:18:34] [connection] incoming connection: 127.0.0.1:54878 id: 0
+[10:18:34] [join] pawner228 has joined the server (0:127.0.0.1)
+[10:18:49] [part] pawner228 has left the server (0:2)
+[10:19:41] [connection] incoming connection: 127.0.0.1:64600 id: 0
+[10:19:41] [join] pawner228 has joined the server (0:127.0.0.1)
+[10:19:44] [part] pawner228 has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:20:13] filterscripts = ""  (string)
+[10:20:13] 
+[10:20:13] Server Plugins
+[10:20:13] --------------
+[10:20:13]  Loading plugin: crashdetect.dll
+[10:20:13]   CrashDetect v4.13 is OK.
+[10:20:13]   Loaded.
+[10:20:13]  Loading plugin: sscanf.dll
+[10:20:13] 
+[10:20:13]  ===============================
+[10:20:13] 
+[10:20:13]       sscanf plugin loaded.     
+[10:20:13] 
+[10:20:13]          Version: 2.13.8
+[10:20:13] 
+[10:20:13]    (c) 2022 Alex "Y_Less" Cole  
+[10:20:13] 
+[10:20:13]  ===============================
+[10:20:13] 
+[10:20:13]   Loaded.
+[10:20:13]  Loading plugin: pawncmd.dll
+[10:20:13] [Pawn.CMD] plugin v3.4.0 loading...
+[10:20:13] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:20:13]   Loaded.
+[10:20:13]  Loading plugin: mysql.dll
+[10:20:13]  >> plugin.mysql: R41-4 successfully loaded.
+[10:20:13]   Loaded.
+[10:20:13]  Loaded 4 plugins.
+
+[10:20:13] 
+[10:20:13] Filterscripts
+[10:20:13] ---------------
+[10:20:13]   Loaded 0 filterscripts.
+
+[10:20:14]  
+[10:20:14]  
+[10:20:14]          ==============================================================
+[10:20:14]          |                                                            |
+[10:20:14]          |                                                            |
+[10:20:14]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[10:20:14]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[10:20:14]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[10:20:14]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[10:20:14]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[10:20:14]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[10:20:14]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[10:20:14]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[10:20:14]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[10:20:14]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[10:20:14]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:20:14]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:20:14]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[10:20:14]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[10:20:14]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[10:20:14]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[10:20:14]          |                                                            |
+[10:20:14]          |                                                            |
+[10:20:14]          |                      (c) 2021 MPL v1.1                     |
+[10:20:14]          |            Alex "Y_Less" Cole and contributors.            |
+[10:20:14]          |                                                            |
+[10:20:14]          |                                                            |
+[10:20:14]          ==============================================================
+[10:20:14]  
+[10:20:14]  
+[10:20:14]  ========================================== 
+[10:20:14]  |                                        | 
+[10:20:14]  |  Missing YSI scriptfiles directories:  | 
+[10:20:14]  |                                        | 
+[10:20:14]  |      /scriptfiles/YSI/fixes/           | 
+[10:20:14]  |      /scriptfiles/YSI/temp/            | 
+[10:20:14]  |                                        | 
+[10:20:14]  ========================================== 
+[10:20:14]  |                                        | 
+[10:20:14]  |   Generating code, this may take a     | 
+[10:20:14]  |  little bit of time.  Note that this   | 
+[10:20:14]  |  code generation works best with the   | 
+[10:20:14]  |     JIT plugin, which you are not      | 
+[10:20:14]  |     currently using.  Get it here:     | 
+[10:20:14]  |                                        | 
+[10:20:14]  |       https://git.io/jit-plugin        | 
+[10:20:14]  |                                        | 
+[10:20:14]  |             Please wait...             | 
+[10:20:14]  |                                        | 
+[10:20:14]  |             Done in 9ms!               | 
+[10:20:14]  |                                        | 
+[10:20:14]  ========================================== 
+[10:20:14]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[10:20:14]  |                                        | 
+[10:20:14]  | Server:      0.3.7-R2 (Windows)        | 
+[10:20:14]  | Started:     03 Nov 2023 - 10:20:14    | 
+[10:20:14]  |                                        | 
+[10:20:14]  | Compiler:    3.10.10 (Windows)         | 
+[10:20:14]  | Includes:    0.3.7                     | 
+[10:20:14]  | Codepage:    <none>                    | 
+[10:20:14]  | Built:       03 Nov 2023 - 10:17:51    | 
+[10:20:14]  |                                        | 
+[10:20:14]  | YSI:         v5.07.3082                | 
+[10:20:14]  | Master:      -1                        | 
+[10:20:14]  |                                        | 
+[10:20:14]  | JIT:         <none>                    | 
+[10:20:14]  | Crashdetect: <warning>                 | 
+[10:20:14]  |                                        | 
+[10:20:14]  |   Crashdetect has been found, but may  | 
+[10:20:14]  |   need updating.  Get the unofficial   | 
+[10:20:14]  |           fixed release from:          | 
+[10:20:14]  |                                        | 
+[10:20:14]  |           github.com/Y-Less/           | 
+[10:20:14]  |        samp-plugin-crashdetect/        | 
+[10:20:14]  |                                        | 
+[10:20:14]  |                                        | 
+[10:20:14]  ========================================== 
+[10:20:14]  |                                        | 
+[10:20:14]  | Unable to check the latest YSI version | 
+[10:20:14]  | - please watch the forums and github:  | 
+[10:20:14]  |                                        | 
+[10:20:14]  |          https://git.io/5.x            | 
+[10:20:14]  |                                        | 
+[10:20:14]  ========================================== 
+[10:20:14]  
+[10:20:14]  
+[10:20:14] Number of vehicle models: 0
+[10:20:19] [connection] incoming connection: 127.0.0.1:54244 id: 0
+[10:20:20] [join] pawner228 has joined the server (0:127.0.0.1)
+[10:20:25] [part] pawner228 has left the server (0:2)
+[10:20:56] [connection] incoming connection: 127.0.0.1:51380 id: 0
+[10:20:56] [join] pawner228 has joined the server (0:127.0.0.1)
+[10:21:01] [part] pawner228 has left the server (0:2)
+[10:21:42] [connection] incoming connection: 127.0.0.1:53520 id: 0
+[10:21:42] [join] pawner228 has joined the server (0:127.0.0.1)
+[10:21:47] [part] pawner228 has left the server (0:2)
+[10:22:20] [connection] incoming connection: 127.0.0.1:53056 id: 0
+[10:22:20] [join] pawner228 has joined the server (0:127.0.0.1)
+[10:22:25] [part] pawner228 has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:23:36] filterscripts = ""  (string)
+[10:23:36] 
+[10:23:36] Server Plugins
+[10:23:36] --------------
+[10:23:36]  Loading plugin: crashdetect.dll
+[10:23:36]   CrashDetect v4.13 is OK.
+[10:23:36]   Loaded.
+[10:23:36]  Loading plugin: sscanf.dll
+[10:23:36] 
+[10:23:36]  ===============================
+[10:23:36] 
+[10:23:36]       sscanf plugin loaded.     
+[10:23:36] 
+[10:23:36]          Version: 2.13.8
+[10:23:36] 
+[10:23:36]    (c) 2022 Alex "Y_Less" Cole  
+[10:23:36] 
+[10:23:36]  ===============================
+[10:23:36] 
+[10:23:36]   Loaded.
+[10:23:36]  Loading plugin: pawncmd.dll
+[10:23:36] [Pawn.CMD] plugin v3.4.0 loading...
+[10:23:36] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:23:36]   Loaded.
+[10:23:36]  Loading plugin: mysql.dll
+[10:23:36]  >> plugin.mysql: R41-4 successfully loaded.
+[10:23:36]   Loaded.
+[10:23:36]  Loaded 4 plugins.
+
+[10:23:36] 
+[10:23:36] Filterscripts
+[10:23:36] ---------------
+[10:23:36]   Loaded 0 filterscripts.
+
+[10:23:36]  
+[10:23:36]  
+[10:23:36]          ==============================================================
+[10:23:36]          |                                                            |
+[10:23:36]          |                                                            |
+[10:23:36]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[10:23:36]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[10:23:36]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[10:23:36]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[10:23:36]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[10:23:36]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[10:23:36]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[10:23:36]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[10:23:36]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[10:23:36]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[10:23:36]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:23:36]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:23:36]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[10:23:36]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[10:23:36]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[10:23:36]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[10:23:36]          |                                                            |
+[10:23:36]          |                                                            |
+[10:23:36]          |                      (c) 2021 MPL v1.1                     |
+[10:23:36]          |            Alex "Y_Less" Cole and contributors.            |
+[10:23:36]          |                                                            |
+[10:23:36]          |                                                            |
+[10:23:36]          ==============================================================
+[10:23:36]  
+[10:23:36]  
+[10:23:36]  ========================================== 
+[10:23:36]  |                                        | 
+[10:23:36]  |  Missing YSI scriptfiles directories:  | 
+[10:23:36]  |                                        | 
+[10:23:36]  |      /scriptfiles/YSI/fixes/           | 
+[10:23:36]  |      /scriptfiles/YSI/temp/            | 
+[10:23:36]  |                                        | 
+[10:23:36]  ========================================== 
+[10:23:36]  |                                        | 
+[10:23:36]  |   Generating code, this may take a     | 
+[10:23:36]  |  little bit of time.  Note that this   | 
+[10:23:36]  |  code generation works best with the   | 
+[10:23:36]  |     JIT plugin, which you are not      | 
+[10:23:36]  |     currently using.  Get it here:     | 
+[10:23:36]  |                                        | 
+[10:23:36]  |       https://git.io/jit-plugin        | 
+[10:23:36]  |                                        | 
+[10:23:36]  |             Please wait...             | 
+[10:23:36]  |                                        | 
+[10:23:36]  |             Done in 9ms!               | 
+[10:23:36]  |                                        | 
+[10:23:36]  ========================================== 
+[10:23:36]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[10:23:36]  |                                        | 
+[10:23:36]  | Server:      0.3.7-R2 (Windows)        | 
+[10:23:36]  | Started:     03 Nov 2023 - 10:23:36    | 
+[10:23:36]  |                                        | 
+[10:23:36]  | Compiler:    3.10.10 (Windows)         | 
+[10:23:36]  | Includes:    0.3.7                     | 
+[10:23:36]  | Codepage:    <none>                    | 
+[10:23:36]  | Built:       03 Nov 2023 - 10:23:28    | 
+[10:23:36]  |                                        | 
+[10:23:36]  | YSI:         v5.07.3082                | 
+[10:23:36]  | Master:      -1                        | 
+[10:23:36]  |                                        | 
+[10:23:36]  | JIT:         <none>                    | 
+[10:23:36]  | Crashdetect: <warning>                 | 
+[10:23:36]  |                                        | 
+[10:23:36]  |   Crashdetect has been found, but may  | 
+[10:23:36]  |   need updating.  Get the unofficial   | 
+[10:23:36]  |           fixed release from:          | 
+[10:23:36]  |                                        | 
+[10:23:36]  |           github.com/Y-Less/           | 
+[10:23:36]  |        samp-plugin-crashdetect/        | 
+[10:23:36]  |                                        | 
+[10:23:36]  |                                        | 
+[10:23:36]  ========================================== 
+[10:23:36]  |                                        | 
+[10:23:36]  | Unable to check the latest YSI version | 
+[10:23:36]  | - please watch the forums and github:  | 
+[10:23:36]  |                                        | 
+[10:23:36]  |          https://git.io/5.x            | 
+[10:23:36]  |                                        | 
+[10:23:36]  ========================================== 
+[10:23:36]  
+[10:23:36]  
+[10:23:36] Number of vehicle models: 0
+[10:23:41] [connection] incoming connection: 127.0.0.1:65412 id: 0
+[10:23:42] [join] pawner228 has joined the server (0:127.0.0.1)
+[10:23:47] [part] pawner228 has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:32:20] filterscripts = ""  (string)
+[10:32:20] 
+[10:32:20] Server Plugins
+[10:32:20] --------------
+[10:32:20]  Loading plugin: crashdetect.dll
+[10:32:20]   CrashDetect v4.13 is OK.
+[10:32:20]   Loaded.
+[10:32:20]  Loading plugin: sscanf.dll
+[10:32:20] 
+[10:32:20]  ===============================
+[10:32:20] 
+[10:32:20]       sscanf plugin loaded.     
+[10:32:20] 
+[10:32:20]          Version: 2.13.8
+[10:32:20] 
+[10:32:20]    (c) 2022 Alex "Y_Less" Cole  
+[10:32:20] 
+[10:32:20]  ===============================
+[10:32:20] 
+[10:32:20]   Loaded.
+[10:32:20]  Loading plugin: pawncmd.dll
+[10:32:20] [Pawn.CMD] plugin v3.4.0 loading...
+[10:32:20] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:32:20]   Loaded.
+[10:32:20]  Loading plugin: mysql.dll
+[10:32:20]  >> plugin.mysql: R41-4 successfully loaded.
+[10:32:20]   Loaded.
+[10:32:20]  Loaded 4 plugins.
+
+[10:32:20] 
+[10:32:20] Filterscripts
+[10:32:20] ---------------
+[10:32:20]   Loaded 0 filterscripts.
+
+[10:32:20]  
+[10:32:20]  
+[10:32:20]          ==============================================================
+[10:32:20]          |                                                            |
+[10:32:20]          |                                                            |
+[10:32:20]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[10:32:20]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[10:32:20]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[10:32:20]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[10:32:20]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[10:32:20]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[10:32:20]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[10:32:20]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[10:32:20]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[10:32:20]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[10:32:20]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:32:20]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:32:20]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[10:32:20]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[10:32:20]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[10:32:20]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[10:32:20]          |                                                            |
+[10:32:20]          |                                                            |
+[10:32:20]          |                      (c) 2021 MPL v1.1                     |
+[10:32:20]          |            Alex "Y_Less" Cole and contributors.            |
+[10:32:20]          |                                                            |
+[10:32:20]          |                                                            |
+[10:32:20]          ==============================================================
+[10:32:20]  
+[10:32:20]  
+[10:32:20]  ========================================== 
+[10:32:20]  |                                        | 
+[10:32:20]  |  Missing YSI scriptfiles directories:  | 
+[10:32:20]  |                                        | 
+[10:32:20]  |      /scriptfiles/YSI/fixes/           | 
+[10:32:20]  |      /scriptfiles/YSI/temp/            | 
+[10:32:20]  |                                        | 
+[10:32:20]  ========================================== 
+[10:32:20]  |                                        | 
+[10:32:20]  |   Generating code, this may take a     | 
+[10:32:20]  |  little bit of time.  Note that this   | 
+[10:32:20]  |  code generation works best with the   | 
+[10:32:20]  |     JIT plugin, which you are not      | 
+[10:32:20]  |     currently using.  Get it here:     | 
+[10:32:20]  |                                        | 
+[10:32:20]  |       https://git.io/jit-plugin        | 
+[10:32:20]  |                                        | 
+[10:32:20]  |             Please wait...             | 
+[10:32:20]  |                                        | 
+[10:32:20]  |             Done in 15ms!              | 
+[10:32:20]  |                                        | 
+[10:32:20]  ========================================== 
+[10:32:20]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[10:32:20]  |                                        | 
+[10:32:20]  | Server:      0.3.7-R2 (Windows)        | 
+[10:32:20]  | Started:     03 Nov 2023 - 10:32:20    | 
+[10:32:20]  |                                        | 
+[10:32:20]  | Compiler:    3.10.10 (Windows)         | 
+[10:32:20]  | Includes:    0.3.7                     | 
+[10:32:20]  | Codepage:    <none>                    | 
+[10:32:20]  | Built:       03 Nov 2023 - 10:32:14    | 
+[10:32:20]  |                                        | 
+[10:32:20]  | YSI:         v5.07.3082                | 
+[10:32:20]  | Master:      -1                        | 
+[10:32:20]  |                                        | 
+[10:32:20]  | JIT:         <none>                    | 
+[10:32:20]  | Crashdetect: <warning>                 | 
+[10:32:20]  |                                        | 
+[10:32:20]  |   Crashdetect has been found, but may  | 
+[10:32:20]  |   need updating.  Get the unofficial   | 
+[10:32:20]  |           fixed release from:          | 
+[10:32:20]  |                                        | 
+[10:32:20]  |           github.com/Y-Less/           | 
+[10:32:20]  |        samp-plugin-crashdetect/        | 
+[10:32:20]  |                                        | 
+[10:32:20]  |                                        | 
+[10:32:20]  ========================================== 
+[10:32:20]  |                                        | 
+[10:32:20]  | Unable to check the latest YSI version | 
+[10:32:20]  | - please watch the forums and github:  | 
+[10:32:20]  |                                        | 
+[10:32:20]  |          https://git.io/5.x            | 
+[10:32:20]  |                                        | 
+[10:32:20]  ========================================== 
+[10:32:20]  
+[10:32:20]  
+[10:32:20] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:32:34] filterscripts = ""  (string)
+[10:32:34] 
+[10:32:34] Server Plugins
+[10:32:34] --------------
+[10:32:34]  Loading plugin: crashdetect.dll
+[10:32:34]   CrashDetect v4.13 is OK.
+[10:32:34]   Loaded.
+[10:32:34]  Loading plugin: sscanf.dll
+[10:32:34] 
+[10:32:34]  ===============================
+[10:32:34] 
+[10:32:34]       sscanf plugin loaded.     
+[10:32:34] 
+[10:32:34]          Version: 2.13.8
+[10:32:34] 
+[10:32:34]    (c) 2022 Alex "Y_Less" Cole  
+[10:32:34] 
+[10:32:34]  ===============================
+[10:32:34] 
+[10:32:34]   Loaded.
+[10:32:34]  Loading plugin: pawncmd.dll
+[10:32:34] [Pawn.CMD] plugin v3.4.0 loading...
+[10:32:34] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:32:34]   Loaded.
+[10:32:34]  Loading plugin: mysql.dll
+[10:32:34]  >> plugin.mysql: R41-4 successfully loaded.
+[10:32:34]   Loaded.
+[10:32:34]  Loaded 4 plugins.
+
+[10:32:34] 
+[10:32:34] Filterscripts
+[10:32:34] ---------------
+[10:32:34]   Loaded 0 filterscripts.
+
+[10:32:35]  
+[10:32:35]  
+[10:32:35]          ==============================================================
+[10:32:35]          |                                                            |
+[10:32:35]          |                                                            |
+[10:32:35]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[10:32:35]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[10:32:35]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[10:32:35]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[10:32:35]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[10:32:35]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[10:32:35]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[10:32:35]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[10:32:35]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[10:32:35]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[10:32:35]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:32:35]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:32:35]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[10:32:35]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[10:32:35]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[10:32:35]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[10:32:35]          |                                                            |
+[10:32:35]          |                                                            |
+[10:32:35]          |                      (c) 2021 MPL v1.1                     |
+[10:32:35]          |            Alex "Y_Less" Cole and contributors.            |
+[10:32:35]          |                                                            |
+[10:32:35]          |                                                            |
+[10:32:35]          ==============================================================
+[10:32:35]  
+[10:32:35]  
+[10:32:35]  ========================================== 
+[10:32:35]  |                                        | 
+[10:32:35]  |  Missing YSI scriptfiles directories:  | 
+[10:32:35]  |                                        | 
+[10:32:35]  |      /scriptfiles/YSI/fixes/           | 
+[10:32:35]  |      /scriptfiles/YSI/temp/            | 
+[10:32:35]  |                                        | 
+[10:32:35]  ========================================== 
+[10:32:35]  |                                        | 
+[10:32:35]  |   Generating code, this may take a     | 
+[10:32:35]  |  little bit of time.  Note that this   | 
+[10:32:35]  |  code generation works best with the   | 
+[10:32:35]  |     JIT plugin, which you are not      | 
+[10:32:35]  |     currently using.  Get it here:     | 
+[10:32:35]  |                                        | 
+[10:32:35]  |       https://git.io/jit-plugin        | 
+[10:32:35]  |                                        | 
+[10:32:35]  |             Please wait...             | 
+[10:32:35]  |                                        | 
+[10:32:35]  |             Done in 18ms!              | 
+[10:32:35]  |                                        | 
+[10:32:35]  ========================================== 
+[10:32:35]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[10:32:35]  |                                        | 
+[10:32:35]  | Server:      0.3.7-R2 (Windows)        | 
+[10:32:35]  | Started:     03 Nov 2023 - 10:32:35    | 
+[10:32:35]  |                                        | 
+[10:32:35]  | Compiler:    3.10.10 (Windows)         | 
+[10:32:35]  | Includes:    0.3.7                     | 
+[10:32:35]  | Codepage:    <none>                    | 
+[10:32:35]  | Built:       03 Nov 2023 - 10:32:30    | 
+[10:32:35]  |                                        | 
+[10:32:35]  | YSI:         v5.07.3082                | 
+[10:32:35]  | Master:      -1                        | 
+[10:32:35]  |                                        | 
+[10:32:35]  | JIT:         <none>                    | 
+[10:32:35]  | Crashdetect: <warning>                 | 
+[10:32:35]  |                                        | 
+[10:32:35]  |   Crashdetect has been found, but may  | 
+[10:32:35]  |   need updating.  Get the unofficial   | 
+[10:32:35]  |           fixed release from:          | 
+[10:32:35]  |                                        | 
+[10:32:35]  |           github.com/Y-Less/           | 
+[10:32:35]  |        samp-plugin-crashdetect/        | 
+[10:32:35]  |                                        | 
+[10:32:35]  |                                        | 
+[10:32:35]  ========================================== 
+[10:32:35]  |                                        | 
+[10:32:35]  | Unable to check the latest YSI version | 
+[10:32:35]  | - please watch the forums and github:  | 
+[10:32:35]  |                                        | 
+[10:32:35]  |          https://git.io/5.x            | 
+[10:32:35]  |                                        | 
+[10:32:35]  ========================================== 
+[10:32:35]  
+[10:32:35]  
+[10:32:35] Number of vehicle models: 0
+[10:32:40] [connection] incoming connection: 127.0.0.1:64084 id: 0
+[10:32:40] [join] pawner228 has joined the server (0:127.0.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:33:22] filterscripts = ""  (string)
+[10:33:22] 
+[10:33:22] Server Plugins
+[10:33:22] --------------
+[10:33:22]  Loading plugin: crashdetect.dll
+[10:33:22]   CrashDetect v4.13 is OK.
+[10:33:22]   Loaded.
+[10:33:22]  Loading plugin: sscanf.dll
+[10:33:22] 
+[10:33:22]  ===============================
+[10:33:22] 
+[10:33:22]       sscanf plugin loaded.     
+[10:33:22] 
+[10:33:22]          Version: 2.13.8
+[10:33:22] 
+[10:33:22]    (c) 2022 Alex "Y_Less" Cole  
+[10:33:22] 
+[10:33:22]  ===============================
+[10:33:22] 
+[10:33:22]   Loaded.
+[10:33:22]  Loading plugin: pawncmd.dll
+[10:33:22] [Pawn.CMD] plugin v3.4.0 loading...
+[10:33:22] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:33:22]   Loaded.
+[10:33:22]  Loading plugin: mysql.dll
+[10:33:22]  >> plugin.mysql: R41-4 successfully loaded.
+[10:33:22]   Loaded.
+[10:33:22]  Loaded 4 plugins.
+
+[10:33:22] 
+[10:33:22] Filterscripts
+[10:33:22] ---------------
+[10:33:22]   Loaded 0 filterscripts.
+
+[10:33:22]  
+[10:33:22]  
+[10:33:22]          ==============================================================
+[10:33:22]          |                                                            |
+[10:33:22]          |                                                            |
+[10:33:22]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[10:33:22]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[10:33:22]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[10:33:22]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[10:33:22]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[10:33:22]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[10:33:22]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[10:33:22]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[10:33:22]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[10:33:22]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[10:33:22]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:33:22]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:33:22]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[10:33:22]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[10:33:22]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[10:33:22]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[10:33:22]          |                                                            |
+[10:33:22]          |                                                            |
+[10:33:22]          |                      (c) 2021 MPL v1.1                     |
+[10:33:22]          |            Alex "Y_Less" Cole and contributors.            |
+[10:33:22]          |                                                            |
+[10:33:22]          |                                                            |
+[10:33:22]          ==============================================================
+[10:33:22]  
+[10:33:22]  
+[10:33:22]  ========================================== 
+[10:33:22]  |                                        | 
+[10:33:22]  |  Missing YSI scriptfiles directories:  | 
+[10:33:22]  |                                        | 
+[10:33:22]  |      /scriptfiles/YSI/fixes/           | 
+[10:33:22]  |      /scriptfiles/YSI/temp/            | 
+[10:33:22]  |                                        | 
+[10:33:22]  ========================================== 
+[10:33:22]  |                                        | 
+[10:33:22]  |   Generating code, this may take a     | 
+[10:33:22]  |  little bit of time.  Note that this   | 
+[10:33:22]  |  code generation works best with the   | 
+[10:33:22]  |     JIT plugin, which you are not      | 
+[10:33:22]  |     currently using.  Get it here:     | 
+[10:33:22]  |                                        | 
+[10:33:22]  |       https://git.io/jit-plugin        | 
+[10:33:22]  |                                        | 
+[10:33:22]  |             Please wait...             | 
+[10:33:22]  |                                        | 
+[10:33:22]  |             Done in 13ms!              | 
+[10:33:22]  |                                        | 
+[10:33:22]  ========================================== 
+[10:33:22]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[10:33:22]  |                                        | 
+[10:33:22]  | Server:      0.3.7-R2 (Windows)        | 
+[10:33:22]  | Started:     03 Nov 2023 - 10:33:22    | 
+[10:33:22]  |                                        | 
+[10:33:22]  | Compiler:    3.10.10 (Windows)         | 
+[10:33:22]  | Includes:    0.3.7                     | 
+[10:33:22]  | Codepage:    <none>                    | 
+[10:33:22]  | Built:       03 Nov 2023 - 10:33:17    | 
+[10:33:22]  |                                        | 
+[10:33:22]  | YSI:         v5.07.3082                | 
+[10:33:22]  | Master:      -1                        | 
+[10:33:22]  |                                        | 
+[10:33:22]  | JIT:         <none>                    | 
+[10:33:22]  | Crashdetect: <warning>                 | 
+[10:33:22]  |                                        | 
+[10:33:22]  |   Crashdetect has been found, but may  | 
+[10:33:22]  |   need updating.  Get the unofficial   | 
+[10:33:22]  |           fixed release from:          | 
+[10:33:22]  |                                        | 
+[10:33:22]  |           github.com/Y-Less/           | 
+[10:33:22]  |        samp-plugin-crashdetect/        | 
+[10:33:22]  |                                        | 
+[10:33:22]  |                                        | 
+[10:33:22]  ========================================== 
+[10:33:22]  |                                        | 
+[10:33:22]  | Unable to check the latest YSI version | 
+[10:33:22]  | - please watch the forums and github:  | 
+[10:33:22]  |                                        | 
+[10:33:22]  |          https://git.io/5.x            | 
+[10:33:22]  |                                        | 
+[10:33:22]  ========================================== 
+[10:33:22]  
+[10:33:22]  
+[10:33:22] Number of vehicle models: 0
+[10:33:26] [connection] incoming connection: 127.0.0.1:52297 id: 0
+[10:33:28] [connection] incoming connection: 127.0.0.1:54399 id: 1
+[10:33:28] [join] pawner228 has joined the server (1:127.0.0.1)
+[10:33:43] [part] pawner228 has left the server (1:2)
+[10:33:47] [connection] incoming connection: 127.0.0.1:62676 id: 0
+[10:33:48] [join] pawner228 has joined the server (0:127.0.0.1)
+[10:33:49] [part] pawner228 has left the server (0:2)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[10:36:52] filterscripts = ""  (string)
+[10:36:52] 
+[10:36:52] Server Plugins
+[10:36:52] --------------
+[10:36:52]  Loading plugin: crashdetect.dll
+[10:36:52]   CrashDetect v4.13 is OK.
+[10:36:52]   Loaded.
+[10:36:52]  Loading plugin: sscanf.dll
+[10:36:52] 
+[10:36:52]  ===============================
+[10:36:52] 
+[10:36:52]       sscanf plugin loaded.     
+[10:36:52] 
+[10:36:52]          Version: 2.13.8
+[10:36:52] 
+[10:36:52]    (c) 2022 Alex "Y_Less" Cole  
+[10:36:52] 
+[10:36:52]  ===============================
+[10:36:52] 
+[10:36:52]   Loaded.
+[10:36:52]  Loading plugin: pawncmd.dll
+[10:36:52] [Pawn.CMD] plugin v3.4.0 loading...
+[10:36:52] [Pawn.CMD] 
+
+    | Pawn.CMD 3.4.0 | 2016 - 2023
+    |--------------------------------
+    | Author and maintainer: katursis
+
+
+    | Compiled: Feb 12 2023 at 18:12:31
+    |--------------------------------------------------------------
+    | Repository: https://github.com/katursis/Pawn.CMD
+
+[10:36:52]   Loaded.
+[10:36:52]  Loading plugin: mysql.dll
+[10:36:52]  >> plugin.mysql: R41-4 successfully loaded.
+[10:36:52]   Loaded.
+[10:36:52]  Loaded 4 plugins.
+
+[10:36:52] 
+[10:36:52] Filterscripts
+[10:36:52] ---------------
+[10:36:52]   Loaded 0 filterscripts.
+
+[10:36:52]  
+[10:36:52]  
+[10:36:52]          ==============================================================
+[10:36:52]          |                                                            |
+[10:36:52]          |                                                            |
+[10:36:52]          |    YYYYYYY       YYYYYYY    SSSSSSSSSSSSSSS  IIIIIIIIII    |
+[10:36:52]          |    Y:::::Y       Y:::::Y  SS:::::::::::::::S I::::::::I    |
+[10:36:52]          |    Y:::::Y       Y:::::Y S:::::SSSSSS::::::S I::::::::I    |
+[10:36:52]          |    Y::::::Y     Y::::::Y S:::::S     SSSSSSS II::::::II    |
+[10:36:52]          |    YYY:::::Y   Y:::::YYY S:::::S               I::::I      |
+[10:36:52]          |       Y:::::Y Y:::::Y    S:::::S               I::::I      |
+[10:36:52]          |        Y:::::Y:::::Y      S::::SSSS            I::::I      |
+[10:36:52]          |         Y:::::::::Y        SS::::::SSSSS       I::::I      |
+[10:36:52]          |          Y:::::::Y           SSS::::::::SS     I::::I      |
+[10:36:52]          |           Y:::::Y               SSSSSS::::S    I::::I      |
+[10:36:52]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:36:52]          |           Y:::::Y                    S:::::S   I::::I      |
+[10:36:52]          |           Y:::::Y        SSSSSSS     S:::::S II::::::II    |
+[10:36:52]          |        YYYY:::::YYYY     S::::::SSSSSS:::::S I::::::::I    |
+[10:36:52]          |        Y:::::::::::Y     S:::::::::::::::SS  I::::::::I    |
+[10:36:52]          |        YYYYYYYYYYYYY      SSSSSSSSSSSSSSS    IIIIIIIIII    |
+[10:36:52]          |                                                            |
+[10:36:52]          |                                                            |
+[10:36:52]          |                      (c) 2021 MPL v1.1                     |
+[10:36:52]          |            Alex "Y_Less" Cole and contributors.            |
+[10:36:52]          |                                                            |
+[10:36:52]          |                                                            |
+[10:36:52]          ==============================================================
+[10:36:52]  
+[10:36:52]  
+[10:36:52]  ========================================== 
+[10:36:52]  |                                        | 
+[10:36:52]  |  Missing YSI scriptfiles directories:  | 
+[10:36:52]  |                                        | 
+[10:36:52]  |      /scriptfiles/YSI/fixes/           | 
+[10:36:52]  |      /scriptfiles/YSI/temp/            | 
+[10:36:52]  |                                        | 
+[10:36:52]  ========================================== 
+[10:36:52]  |                                        | 
+[10:36:52]  |   Generating code, this may take a     | 
+[10:36:52]  |  little bit of time.  Note that this   | 
+[10:36:52]  |  code generation works best with the   | 
+[10:36:52]  |     JIT plugin, which you are not      | 
+[10:36:52]  |     currently using.  Get it here:     | 
+[10:36:52]  |                                        | 
+[10:36:52]  |       https://git.io/jit-plugin        | 
+[10:36:52]  |                                        | 
+[10:36:52]  |             Please wait...             | 
+[10:36:52]  |                                        | 
+[10:36:52]  |             Done in 10ms!              | 
+[10:36:52]  |                                        | 
+[10:36:52]  ========================================== 
+[10:36:52]   Filterscript '../scriptfiles/callbackfix.amx' loaded.
+[10:36:53]  |                                        | 
+[10:36:53]  | Server:      0.3.7-R2 (Windows)        | 
+[10:36:53]  | Started:     03 Nov 2023 - 10:36:52    | 
+[10:36:53]  |                                        | 
+[10:36:53]  | Compiler:    3.10.10 (Windows)         | 
+[10:36:53]  | Includes:    0.3.7                     | 
+[10:36:53]  | Codepage:    <none>                    | 
+[10:36:53]  | Built:       03 Nov 2023 - 10:36:32    | 
+[10:36:53]  |                                        | 
+[10:36:53]  | YSI:         v5.07.3082                | 
+[10:36:53]  | Master:      -1                        | 
+[10:36:53]  |                                        | 
+[10:36:53]  | JIT:         <none>                    | 
+[10:36:53]  | Crashdetect: <warning>                 | 
+[10:36:53]  |                                        | 
+[10:36:53]  |   Crashdetect has been found, but may  | 
+[10:36:53]  |   need updating.  Get the unofficial   | 
+[10:36:53]  |           fixed release from:          | 
+[10:36:53]  |                                        | 
+[10:36:53]  |           github.com/Y-Less/           | 
+[10:36:53]  |        samp-plugin-crashdetect/        | 
+[10:36:53]  |                                        | 
+[10:36:53]  |                                        | 
+[10:36:53]  ========================================== 
+[10:36:53]  |                                        | 
+[10:36:53]  | Unable to check the latest YSI version | 
+[10:36:53]  | - please watch the forums and github:  | 
+[10:36:53]  |                                        | 
+[10:36:53]  |          https://git.io/5.x            | 
+[10:36:53]  |                                        | 
+[10:36:53]  ========================================== 
+[10:36:53]  
+[10:36:53]  
+[10:36:53] Number of vehicle models: 0
+[10:36:58] [connection] incoming connection: 127.0.0.1:53865 id: 0
+[10:36:58] [join] pawner228 has joined the server (0:127.0.0.1)
+[10:37:05] [part] pawner228 has left the server (0:1)

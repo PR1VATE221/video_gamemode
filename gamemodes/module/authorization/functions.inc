@@ -25,3 +25,13 @@ stock clear_player_chat(playerid) {
 	}
 	return true;
 }
+
+stock check_player_banned(playerid, account_id) {
+	mysql_format(
+		dbHandle, sqlSmallQuery, sizeof(sqlSmallQuery),
+		"SELECT * FROM `video_ban` WHERE `ban_player_id` = '%i'",
+		account_id
+	);
+	mysql_tquery(dbHandle, sqlSmallQuery, "check_account_ban_sql", "i", playerid);
+	return true;
+}

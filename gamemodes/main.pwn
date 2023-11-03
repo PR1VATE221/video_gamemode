@@ -8,6 +8,8 @@
 
 new MySQL:dbHandle;
 
+#define publics:%0(%1)			forward %0(%1); public %0(%1)
+
 new
 	sqlSmallQuery[144],
 	sqlMediumQuery[256],
@@ -21,6 +23,8 @@ main() {}
 public OnGameModeInit() {
 	AddPlayerClass(289, 1958.3783, 1343.1572, 15.3746, 269.1425, 0, 0, 0, 0, 0, 0);
 	dbHandle = mysql_connect("localhost", "root", "123123", "main_server");
+	mysql_tquery(dbHandle, "SET NAMES utf8");
+	mysql_tquery(dbHandle, "SET CHARACTER SET 'cp1251'");
 	SetGameModeText("VideoServer");
 	return true;
 }
@@ -38,3 +42,13 @@ public OnPlayerConnect(playerid) {
 
 #include "module\authorization\main.inc" // Подключение модуля регистрации
 #include "module\admin\main.inc" // Подключение системы администрирования
+
+stock KickEx(playerid) {
+	SetTimerEx("kick_timer", 200, false, "i", playerid);
+	return true;
+}
+
+publics: kick_timer(playerid) {
+	Kick(playerid);
+	return true;
+}
