@@ -1,0 +1,1 @@
+#include "data\main.inc" // Данные об игроке

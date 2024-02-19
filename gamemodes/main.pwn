@@ -40,6 +40,7 @@ public OnPlayerConnect(playerid) {
 	return true;
 }
 
+#include "module\player\main.inc" // Подключение модулей игрока
 #include "module\authorization\main.inc" // Подключение модуля регистрации
 #include "module\admin\main.inc" // Подключение системы администрирования
 

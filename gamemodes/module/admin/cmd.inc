@@ -70,3 +70,63 @@ cmd:ban(playerid, params[]) {
 	mysql_tquery(dbHandle, sqlSmallQuery, "check_ban_account_id", "iiis", playerid, banned_playerid, banned_days, banned_reason);
 	return true;
 }
+
+cmd:setlevel(playerid, params[]) {
+	if(!is_player_admin(playerid)) {
+		return true;
+	}
+	new
+		target_id,
+		target_level;
+
+	if(sscanf(params, "ii", target_id, target_level)) {
+		SendClientMessage(playerid, -1, "Используйте: /setlevel [id] [уровень]");
+		return true;
+	}
+
+	if(!IsPlayerConnected(target_id)) {
+		SendClientMessage(playerid, -1, "Игрок с указанным ID не в сети.");
+		return true;
+	}
+
+	if(target_level < 1 || target_level > 1000) {
+		SendClientMessage(playerid, -1, "Уровень от 1 до 1000.");
+		return true;
+	}
+
+	User[target_id][p_Level] = target_level;
+
+	save_player_int(target_id, "account_level", User[target_id][p_Level]);
+
+	return true;
+}
+
+cmd:setmoney(playerid, params[]) {
+	if(!is_player_admin(playerid)) {
+		return true;
+	}
+	new
+		target_id,
+		target_cash;
+
+	if(sscanf(params, "ii", target_id, target_cash)) {
+		SendClientMessage(playerid, -1, "Используйте: /setmoney [id] [деньги]");
+		return true;
+	}
+
+	if(!IsPlayerConnected(target_id)) {
+		SendClientMessage(playerid, -1, "Игрок с указанным ID не в сети.");
+		return true;
+	}
+
+	if(target_cash < 1 || target_cash > 500000) {
+		SendClientMessage(playerid, -1, "Деньги от 1 до 500000.");
+		return true;
+	}
+
+	User[target_id][p_Cash] = target_cash;
+
+	save_player_int(target_id, "account_cash", User[target_id][p_Cash]);
+
+	return true;
+}
