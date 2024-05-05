@@ -71,6 +71,79 @@ cmd:ban(playerid, params[]) {
 	return true;
 }
 
+cmd:mute(playerid, params[]) {
+	if(!is_player_admin(playerid)) {
+		return true;
+	}
+	
+	new 
+		muted_playerid,
+		mute_minutes,
+		mute_reason[100];
+
+	if(sscanf(params, "dds[100]", muted_playerid, mute_minutes, mute_reason)) {
+		SendClientMessage(playerid, -1, "Используйте: /mute [id] [минуты] [причина]");
+		return true;
+	}
+
+	if(!IsPlayerConnected(muted_playerid)) {
+		SendClientMessage(playerid, -1, "Игрока с таким ID нет на сервере.");
+		return true;
+	}
+
+	if(mute_minutes < 1 || mute_minutes > 120) {
+		SendClientMessage(playerid, -1, "Время мута от 1 минуты до 120.");
+		return true;
+	}
+	if(User[muted_playerid][p_MuteTime] != 0) {
+		SendClientMessage(playerid, -1, "У игрока уже есть бан чата, используйте /unmute.");
+		return true;
+	}
+	// TODO! Сделать проверку на то, есть ли уже мут
+	User[muted_playerid][p_MuteTime] = (gettime() + (mute_minutes * 60));
+	format(
+		sqlSmallQuery, sizeof(sqlSmallQuery),
+		"Администратор %s выдал бан чата игроку %s. Причина: %s",
+		player_name[playerid], player_name[muted_playerid], mute_reason
+	);
+	SendClientMessageToAll(0xDE5555FF, sqlSmallQuery);
+	save_player_int(muted_playerid, "account_mute", User[muted_playerid][p_MuteTime]);
+	return true;
+}
+
+cmd:unmute(playerid, params[]) {
+	if(!is_player_admin(playerid)) {
+		return true;
+	}
+	
+	new 
+		unmuted_playerid;
+
+	if(sscanf(params, "d", unmuted_playerid)) {
+		SendClientMessage(playerid, -1, "Используйте: /unmute [id]");
+		return true;
+	}
+
+	if(!IsPlayerConnected(unmuted_playerid)) {
+		SendClientMessage(playerid, -1, "Игрока с таким ID нет на сервере.");
+		return true;
+	}
+	if(User[unmuted_playerid][p_MuteTime] == 0) {
+		SendClientMessage(playerid, -1, "У этого игрока нет бана чата.");
+		return true;
+	}
+	User[unmuted_playerid][p_MuteTime] = 0;
+
+	format(
+		sqlSmallQuery, sizeof(sqlSmallQuery),
+		"Администратор %s снял бан чата у игрока %s.",
+		player_name[playerid], player_name[unmuted_playerid]
+	);
+	SendClientMessageToAll(0xDE5555FF, sqlSmallQuery);
+	save_player_int(unmuted_playerid, "account_mute", User[unmuted_playerid][p_MuteTime]);
+	return true;
+}
+
 cmd:setlevel(playerid, params[]) {
 	if(!is_player_admin(playerid)) {
 		return true;

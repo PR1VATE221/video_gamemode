@@ -26,6 +26,7 @@ public OnGameModeInit() {
 	mysql_tquery(dbHandle, "SET NAMES utf8");
 	mysql_tquery(dbHandle, "SET CHARACTER SET 'cp1251'");
 	SetGameModeText("VideoServer");
+	SetTimerEx("fresh", 1000, true, "");
 	return true;
 }
 
@@ -40,6 +41,10 @@ public OnPlayerConnect(playerid) {
 	return true;
 }
 
+public OnPlayerClickMap(playerid, Float:fX, Float:fY, Float:fZ) {
+	return true;
+}
+
 #include "module\player\main.inc" // Подключение модулей игрока
 #include "module\authorization\main.inc" // Подключение модуля регистрации
 #include "module\admin\main.inc" // Подключение системы администрирования
@@ -51,5 +56,43 @@ stock KickEx(playerid) {
 
 publics: kick_timer(playerid) {
 	Kick(playerid);
+	return true;
+}
+
+public OnPlayerText(playerid, text[]) {
+	if(User[playerid][p_MuteTime] != 0) {
+		SendClientMessage(playerid, 0xDE5555FF, "У Вас бан чата.");
+		return false;
+	}
+	format(
+		sqlSmallQuery, sizeof(sqlSmallQuery),
+		"%s[%i] сказал: %s",
+		player_name[playerid], playerid, text
+	);
+	SendBeside(playerid, 20.0, 0xAFAFAFFF, sqlSmallQuery);
+	return false;
+}
+
+stock SendBeside(playerid, Float:range, color, const string[]) {
+	new
+		Float:lPlayerPos[3];
+	
+	GetPlayerPos(playerid, lPlayerPos[0], lPlayerPos[1], lPlayerPos[2]);
+
+	foreach(new i : Player) {
+		if(IsPlayerInRangeOfPoint(playerid, range, lPlayerPos[0], lPlayerPos[1], lPlayerPos[2])) {
+			SendClientMessage(playerid, color, string);
+		}
+	}
+	return true;
+}
+
+publics: fresh() {
+	foreach(new i : Player) {
+		if(gettime() > User[i][p_MuteTime]) {
+			SendClientMessage(i, -1, "Ваш бан чата был снят, больше не нарушайте пожалуйста.");
+			User[i][p_MuteTime] = 0;
+		}
+	}
 	return true;
 }

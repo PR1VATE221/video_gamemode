@@ -35,6 +35,7 @@ publics: check_password(playerid) {
 		cache_get_value_name(0, "account_pame", User[playerid][p_PAme], 128);
 		cache_get_value_name_int(0, "account_level", User[playerid][p_Level]);
 		cache_get_value_name_int(0, "account_cash", User[playerid][p_Cash]);
+		cache_get_value_name_int(0, "mutetime", User[playerid][p_MuteTime]);
 
 		clear_player_chat(playerid);		
 		check_player_banned(playerid, account_id);		

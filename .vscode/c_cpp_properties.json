@@ -1,1 +1,16 @@
-{    "configurations": [        {            "name": "Win32",            "includePath": ["C:/server/pawno/include"],            "browse" : {                "limitSymbolsToIncludedHeaders" : false,                "databaseFilename" : ""            }        }    ]}
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/server/pawno/include"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": ""
+            },
+            "intelliSenseMode": "windows-msvc-x64"
+        }
+    ],
+    "version": 4
+}

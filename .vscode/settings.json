@@ -3,9 +3,10 @@
     "editor.suggest.showStatusBar": true,
     "zenMode.hideStatusBar": false,
     "workbench.statusBar.visible": true,
-	"workbench.colorTheme": "GitHub Dark",
+	"workbench.colorTheme": "GitHub Dark Dimmed",
 	"workbench.iconTheme": "material-icon-theme",
 	"editor.fontWeight": "bold",
 	"editor.fontFamily": "JetBrains Mono",
 	"editor.lineNumbers": "on",
+	"sqltools.connections": [],
 }
