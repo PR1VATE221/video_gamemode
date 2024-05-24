@@ -50,6 +50,8 @@ publics: check_account_ban_sql(playerid) {
 	cache_get_row_count(rows_count);
 
 	if(!rows_count) {
+		GetPlayerInventory(playerid);
+
 		SpawnPlayer(playerid);
 		check_player_admin(playerid);
 		return true;

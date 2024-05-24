@@ -1,0 +1,41 @@
+{
+    "Iter_Add": {
+        "prefix": "Iter_Add",
+        "body": "Iter_Add(${1:iter[]}, ${2:value})",
+        "description": "Add a value to the iterator"
+    },
+    "Iter_Remove": {
+        "prefix": "Iter_Remove",
+        "body": "Iter_Remove(${1:iter[]}, ${2:value})",
+        "description": "Remove a value from the iterator"
+    },
+    "Iter_Contains": {
+        "prefix": "Iter_Contains",
+        "body": "Iter_Contains(${1:iter[]}, ${2:value})",
+        "description": "Does the iterator contain the value"
+    },
+    "[MySQL] smallquery": {
+        "prefix": "[MySQL] Small Query Len",
+        "body":  [
+            "mysql_format(",
+            "\tdbHandle, sqlSmallQuery, sizeof(sqlSmallQuery),",
+            "\t\"SELECT * FROM `` WHERE `` = '%i'\",",
+            "\t${2:playerid}",
+            ");",
+            "mysql_tquery(\n\tdbHandle, sqlSmallQuery, \"\", \"\"\n);"
+        ],
+        "description": "Small Query Len"
+    },
+    "[MySQL] mediumquery": {
+        "prefix": "[MySQL] Medium Query Len",
+        "body":  [
+            "mysql_format(",
+            "\tdbHandle, sqlMediumQuery, sizeof(sqlMediumQuery),",
+            "\t\"SELECT * FROM `` WHERE `` = '%i'\",",
+            "\t${2:playerid}",
+            ");",
+            "mysql_tquery(\n\tdbHandle, sqlMediumQuery, \"\", \"\"\n);"
+        ],
+        "description": "Medium Query Len"
+    }
+}

@@ -27,6 +27,9 @@ public OnGameModeInit() {
 	mysql_tquery(dbHandle, "SET CHARACTER SET 'cp1251'");
 	SetGameModeText("VideoServer");
 	SetTimerEx("fresh", 1000, true, "");
+
+	LoadInventoryItems();
+
 	return true;
 }
 
@@ -89,7 +92,7 @@ stock SendBeside(playerid, Float:range, color, const string[]) {
 
 publics: fresh() {
 	foreach(new i : Player) {
-		if(gettime() > User[i][p_MuteTime]) {
+		if(gettime() > User[i][p_MuteTime] && User[i][p_MuteTime] != 0) {
 			SendClientMessage(i, -1, "Ваш бан чата был снят, больше не нарушайте пожалуйста.");
 			User[i][p_MuteTime] = 0;
 		}
